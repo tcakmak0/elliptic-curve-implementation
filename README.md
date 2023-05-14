@@ -1,9 +1,5 @@
 # elliptic-Curve-Implementation
-Implementation of a basic class for Elliptic Curves with addition and scalar multiplication properties. The class can be used for implementing a simple Diffie-Hellman key exchange.
+The implementation includes a basic class for Elliptic Curves with methods for point addition and scalar multiplication. This class can be utilized for a straightforward implementation of the Diffie-Hellman key exchange. The class does not verify if the generator point is a member of the curve, so the implementer should ensure its validity in different implementations. 
 
 
-
-Elliptic Curve Class has its own methods to add 2 points in the curve and do the scaler multiplication. Scaler multiplication is basically nothing but addittion of the same point for several times.
-Class does not check whether the generating point is the member of the curve or not. So in different implementations, implementor must be sure about the generator point.
-
-Details and background info added as a pdf file in the repo.
+Additional information and background details are provided in a PDF file included in the repository.
