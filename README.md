@@ -10,11 +10,11 @@ The `EllipticCurve` class provides methods for ECC encryption and decryption. He
 
 - `pointAddition(self, point1, point2)`: Performs point addition on the elliptic curve given two points `point1` and `point2`.
 
-- `scalarMultiplication(self, k, point)`: Performs scalar multiplication on the elliptic curve given a scalar `k` and a point `point`.
+- `scalarMultiplication(self, k, point)`: Performs scalar multiplication on the elliptic curve given a scalar `k` and a point `point`. Basically adds point to itself for k times.
 
 - `keyDerivator(self, point, salt=b'')`: Derives a key from a point on the elliptic curve using HMAC-SHA256 with an optional salt.
 
-- `encrypt_ECC(self, basePoint, msg, pubKey)`: Encrypts a message `msg` using ECC encryption with a base point `basePoint` and a public key `pubKey`.
+- `encrypt_ECC(self, basePoint, msg, pubKey)`: Encrypts a message `msg` using ECC encryption with a base point `basePoint` and a public key `pubKey`. 
 
 - `decrypt_ECC(self, encryptedMsg, privKey)`: Decrypts an encrypted message `encryptedMsg` using ECC decryption with a private key `privKey`.
 
