@@ -28,6 +28,7 @@ This code relies on the following dependencies:
 - `pycryptodom`: Used for AES encryption and decryption.
 
 Please make sure to install these dependencies using the provided `requirements.txt` file.
+All the libraries except pycryptodom are included by default
 
 ## Examples
 
