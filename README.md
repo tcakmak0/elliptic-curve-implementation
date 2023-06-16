@@ -1,6 +1,6 @@
 # Elliptic Curve Cryptography (ECC) Encryption
 
-This code provides an implementation of Elliptic Curve Cryptography (ECC) encryption using the `hmac`, `hashlib`, `secrets`, `Crypto.Cipher.AES`, and `Crypto.Random` libraries.
+This code provides an implementation of Elliptic Curve Cryptography (ECC) encryption using the `hmac`, `hashlib`, `secrets`, `pyrcryptodom` libraries.
 
 ## Usage
 
