@@ -50,7 +50,7 @@ encrypted_msg = ecc.encrypt_ECC(basePoint, message, public_key)
 decrypted_msg = ecc.decrypt_ECC(encrypted_msg, private_key)
 
 
-
+```
 
 Another example usage for diffie hellman key exchange
 
@@ -72,3 +72,5 @@ sharedSecretBob = curve.scalarMultiplication(privateKeyBob, publicKeyAlice)
 
 print("Alice's shared secret:", sharedSecretAlice)
 print("Bob's shared secret:", sharedSecretBob)
+
+```
